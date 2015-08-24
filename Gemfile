@@ -14,6 +14,7 @@ gem "figaro"
 gem 'devise'
 gem 'pg'
 gem 'paperclip-dropbox', '>= 1.1.7'
+gem 'stripe'
 
 group :development, :test do
   gem 'sqlite3'
