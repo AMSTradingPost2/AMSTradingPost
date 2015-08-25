@@ -15,6 +15,8 @@ gem 'devise'
 gem 'pg'
 gem 'paperclip-dropbox', '>= 1.1.7'
 gem 'stripe'
+gem 'will_paginate', '~> 3.0.6'
+gem 'will_paginate-bootstrap'
 
 group :development, :test do
   gem 'sqlite3'
