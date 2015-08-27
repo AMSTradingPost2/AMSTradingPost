@@ -14,7 +14,7 @@ gem "figaro"
 gem 'devise'
 gem 'pg'
 gem 'paperclip-dropbox', '>= 1.1.7'
-gem 'stripe'
+gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 gem 'will_paginate', '~> 3.0.6'
 gem 'will_paginate-bootstrap'
 
